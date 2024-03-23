@@ -44,8 +44,8 @@
 
 #### p6awscdk/init.zsh:
 
-- p6_awscdk_prompt_info()
 - p6df::modules::p6awscdk::deps()
+- str str = p6_awscdk_prompt_info()
 
 
 
