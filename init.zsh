@@ -15,7 +15,7 @@ p6df::modules::p6awscdk::deps() {
 ######################################################################
 #<
 #
-# Function: p6_awscdk_prompt_info()
+# Function: str str = p6_awscdk_prompt_info()
 #
 #  Returns:
 #	str - str
@@ -34,9 +34,5 @@ p6_awscdk_prompt_info() {
     str=$(p6_string_append "$str" " default=[$CDK_DEFAULT_ACCOUNT/$CDK_DEFAULT_REGION]")
   fi
 
-  if p6_string_blank "$str"; then
-    p6_return_void
-  else
-    p6_return_str "$str"
-  fi
+  p6_return_str "$str"
 }
