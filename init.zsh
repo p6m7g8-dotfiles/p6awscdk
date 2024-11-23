@@ -15,24 +15,19 @@ p6df::modules::p6awscdk::deps() {
 ######################################################################
 #<
 #
-# Function: str str = p6_awscdk_prompt_info()
+# Function: p6df::modules::p6awscdk::init(_module, dir)
 #
-#  Returns:
-#	str - str
+#  Args:
+#	_module -
+#	dir -
 #
-#  Environment:	 CDK_DEFAULT_ACCOUNT CDK_DEPLOY_ACCOUNT
 #>
 ######################################################################
-p6_awscdk_prompt_info() {
+p6df::modules::p6awscdk::init() {
+  local _module="$1"
+  local dir="$2"
 
-  local str
+  p6_bootstrap "$dir"
 
-  if ! p6_string_blank "$CDK_DEPLOY_ACCOUNT"; then
-    str="cdk:\t\t  deploy=[$CDK_DEPLOY_ACCOUNT/$CDK_DEPLOY_REGION]"
-  fi
-  if ! p6_string_blank "$CDK_DEFAULT_ACCOUNT"; then
-    str=$(p6_string_append "$str" " default=[$CDK_DEFAULT_ACCOUNT/$CDK_DEFAULT_REGION]")
-  fi
-
-  p6_return_str "$str"
+  p6_return_void
 }
