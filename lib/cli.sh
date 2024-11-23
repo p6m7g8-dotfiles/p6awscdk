@@ -41,6 +41,8 @@ p6_awscdk_cli_execute() {
   local region="$4"
   if [ $# -gt 3 ]; then
     shift 4
+  elif p6_string_eq "$action" "destroy"; then
+    shift 1
   else
     shift 2
   fi
