@@ -2,15 +2,19 @@
 
 ## Table of Contents
 
-
 ### p6awscdk
 - [p6awscdk](#p6awscdk)
-  - [Badges](#badges)
-  - [Distributions](#distributions)
+  - [Table of Contents](#table-of-contents)
+    - [p6awscdk](#p6awscdk-1)
+    - [Badges](#badges)
   - [Summary](#summary)
   - [Contributing](#contributing)
   - [Code of Conduct](#code-of-conduct)
   - [Usage](#usage)
+    - [Aliases](#aliases)
+    - [Functions](#functions)
+    - [p6awscdk:](#p6awscdk-2)
+      - [p6awscdk/init.zsh:](#p6awscdkinitzsh)
   - [Author](#author)
 
 ### Badges
@@ -34,9 +38,7 @@
 
 ## Usage
 
-
 ### Aliases
-
 
 ### Functions
 
@@ -46,8 +48,6 @@
 
 - p6df::modules::p6awscdk::deps()
 - str str = p6_awscdk_prompt_info()
-
-
 
 ## Author
 
