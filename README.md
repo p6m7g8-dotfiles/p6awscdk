@@ -14,7 +14,6 @@
   - [Usage](#usage)
     - [Aliases](#aliases)
     - [Functions](#functions)
-    - [p6awscdk](#p6awscdk-2)
       - [p6awscdk/init.zsh](#p6awscdkinitzsh)
   - [Author](#author)
 
@@ -42,8 +41,6 @@
 ### Aliases
 
 ### Functions
-
-### p6awscdk
 
 #### p6awscdk/init.zsh
 
