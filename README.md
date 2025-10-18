@@ -1,12 +1,12 @@
-# p6awscdk
+# P6's POSIX.2 p6awscdk
 
 ## Table of Contents
 
 ### p6awscdk
 
-- [p6awscdk](#p6awscdk)
+- [P6's POSIX.2 p6awscdk](#p6s-posix2-p6awscdk)
   - [Table of Contents](#table-of-contents)
-    - [p6awscdk](#p6awscdk-1)
+    - [p6awscdk](#p6awscdk)
     - [Badges](#badges)
   - [Summary](#summary)
   - [Contributing](#contributing)
