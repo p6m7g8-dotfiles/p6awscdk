@@ -5,7 +5,7 @@ main() {
     . ../p6common/lib/_bootstrap.sh
     p6_bootstrap "../p6common"
 
-    . ./init.zsh
+    . ./lib/prompt.sh
 
     p6_test_setup "1"
 
