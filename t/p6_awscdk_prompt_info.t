@@ -6,6 +6,7 @@ main() {
     p6_bootstrap "../p6common"
 
     . ./init.zsh
+    p6_bootstrap "."
 
     p6_test_setup "1"
 

@@ -22,13 +22,14 @@ p6_awscdk_cli_cmd() {
 ######################################################################
 #<
 #
-# Function: p6_awscdk_cli_execute(action, stack, account_id, region, ..., ...)
+# Function: p6_awscdk_cli_execute(action, stack, account_id, region, ..., ..., ...)
 #
 #  Args:
 #	action -
 #	stack -
 #	account_id -
 #	region -
+#	... - 
 #	... - 
 #	... - 
 #
@@ -58,11 +59,11 @@ p6_awscdk_cli_execute() {
   fi
 
   if p6_string_blank "$account_id"; then
-    p6_awscdk_cli_cmd pnpm cdk $action $args $stack
+    p6_awscdk_cli_cmd pnpm cdk "$action" "$args" "$stack"
   else
-    p6_echo pnpm cdk bootstrap aws://$account_id/$region "$@"
+    p6_echo pnpm cdk bootstrap aws://"$account_id"/"$region" "$@"
     if p6_string_eq "$action" "deploy"; then
-      pnpm cdk bootstrap aws://$account_id/$region "$@"
+      pnpm cdk bootstrap aws://"$account_id"/"$region" "$@"
     fi
   fi
 
