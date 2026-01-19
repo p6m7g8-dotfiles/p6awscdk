@@ -7,7 +7,7 @@
 #  Returns:
 #	str - str
 #
-#  Environment:	 CDK_DEFAULT_ACCOUNT CDK_DEPLOY_ACCOUNT
+#  Environment:	 CDK_DEFAULT_ACCOUNT CDK_DEFAULT_REGION CDK_DEPLOY_ACCOUNT CDK_DEPLOY_REGION
 #>
 ######################################################################
 p6_awscdk_prompt_info() {
