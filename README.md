@@ -48,12 +48,12 @@ TODO: Add a short summary of this module.
 
 ##### p6awscdk/lib/bootstrap.sh
 
-- `p6_awscdk_cli_bootstrap_trust()`
+- `p6_awscdk_cli_bootstrap_trust(action, account_id, region, trust_account_id)`
 
 ##### p6awscdk/lib/cli.sh
 
-- `code rc = p6_awscdk_cli_cmd()`
-- `p6_awscdk_cli_execute(action, stack, account_id, region, ..., ..., ...)`
+- `p6_awscdk_cli_cmd(...)`
+- `p6_awscdk_cli_execute(action, stack, account_id, region, ...)`
 
 ##### p6awscdk/lib/prompt.sh
 

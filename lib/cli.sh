@@ -3,10 +3,10 @@
 ######################################################################
 #<
 #
-# Function: code rc = p6_awscdk_cli_cmd()
+# Function: p6_awscdk_cli_cmd(...)
 #
-#  Returns:
-#	code - rc
+#  Args:
+#	... - 
 #
 #>
 ######################################################################
@@ -22,15 +22,13 @@ p6_awscdk_cli_cmd() {
 ######################################################################
 #<
 #
-# Function: p6_awscdk_cli_execute(action, stack, account_id, region, ..., ..., ...)
+# Function: p6_awscdk_cli_execute(action, stack, account_id, region, ...)
 #
 #  Args:
 #	action -
 #	stack -
 #	account_id -
 #	region -
-#	... - 
-#	... - 
 #	... - 
 #
 #>
