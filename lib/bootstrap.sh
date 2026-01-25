@@ -3,7 +3,13 @@
 ######################################################################
 #<
 #
-# Function: p6_awscdk_cli_bootstrap_trust()
+# Function: p6_awscdk_cli_bootstrap_trust(action, account_id, region, trust_account_id)
+#
+#  Args:
+#	action -
+#	account_id -
+#	region -
+#	trust_account_id -
 #
 #>
 ######################################################################
