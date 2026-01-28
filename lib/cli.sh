@@ -47,7 +47,7 @@ p6_awscdk_cli_execute() {
   fi
 
   local args="--require-approval never --no-rollback"
-  if ! p6_string_blank "$stack"; then
+  if p6_string_blank_NOT "$stack"; then
     args="$args --exclusively"
   else
     args="$args --all"
