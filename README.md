@@ -44,8 +44,8 @@ TODO: Add a short summary of this module.
 - `p6df::modules::p6awscdk::deps()`
 - `p6df::modules::p6awscdk::init(_module, dir)`
   - Args:
-    - _module -
-    - dir -
+    - _module
+    - dir
 
 #### p6awscdk/lib
 
@@ -53,23 +53,23 @@ TODO: Add a short summary of this module.
 
 - `p6_awscdk_cli_bootstrap_trust(action, account_id, region, trust_account_id)`
   - Args:
-    - action -
-    - account_id -
-    - region -
-    - trust_account_id -
+    - action
+    - account_id
+    - region
+    - trust_account_id
 
 ##### p6awscdk/lib/cli.sh
 
 - `p6_awscdk_cli_cmd(...)`
   - Args:
-    - ... -
+    - ...
 - `p6_awscdk_cli_execute(action, stack, account_id, region, ...)`
   - Args:
-    - action -
-    - stack -
-    - account_id -
-    - region -
-    - ... -
+    - action
+    - stack
+    - account_id
+    - region
+    - ...
 
 ##### p6awscdk/lib/prompt.sh
 
